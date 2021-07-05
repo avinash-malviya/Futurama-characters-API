@@ -1,0 +1,32 @@
+.media {
+  height: 180px;
+  width: 95px;
+  margin: auto;
+  margin-top: 40px;
+}
+.box {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+.container {
+  text-align: center;
+  padding: 20px 50px;
+  background-color: lightgrey;
+}
+.content {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700 !important;
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+.title {
+  font-size: 70px !important;
+  margin-bottom: 10px;
+  color: blue;
+  font-weight: 900 !important;
+  letter-spacing: -1px;
+  font-family: "Roboto", sans-serif;
+}
